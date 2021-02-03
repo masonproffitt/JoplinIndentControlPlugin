@@ -1,7 +1,12 @@
 import joplin from 'api';
+import { ContentScriptType } from 'api/types';
 
 joplin.plugins.register({
 	onStart: async function() {
-		console.info('Test plugin started!');
+		await joplin.plugins.registerContentScript(
+			ContentScriptType.CodeMirrorPlugin,
+			'IndentationControl',
+			'./IndentationControl.js'
+		);
 	},
 });
