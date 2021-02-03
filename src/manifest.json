@@ -1,0 +1,12 @@
+{
+	"manifest_version": 1,
+	"id": "com.masonproffitt.JoplinIndentControlPlugin",
+	"app_min_version": "1.7",
+	"version": "1.0.0",
+	"name": "Indentation Control",
+	"description": "Controls indentation for CodeMirror editor",
+	"author": "Mason Proffitt",
+	"homepage_url": "",
+	"repository_url": "https://github.com/masonproffitt/JoplinIndentControlPlugin",
+	"keywords": []
+}
